@@ -36,7 +36,11 @@ body {
     padding: 0;
   }
 }
-
+@media (max-width:881px) {
+  .header-h1-resonsive{
+    display: block;
+  }
+}
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
@@ -234,7 +238,6 @@ a:hover {
 
 /* Header Section
 ********************************************************************* */
-
 header {
   display: -webkit-box;
   display: -webkit-flex;
@@ -254,6 +257,8 @@ header {
   background: linear-gradient(135deg, #f43f3b 0%, #c62127 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
 }
+
+
 .title {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
